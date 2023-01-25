@@ -84,7 +84,7 @@ def start_training(character):
         # В функции print() будет вызываться метод класса,
         # который соответствует введённой команде.
         if cmd in commands:
-            print(commands[cmd])
+            print(commands[cmd]())
     return 'Тренировка окончена.'
 
 
